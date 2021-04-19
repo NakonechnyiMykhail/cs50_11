@@ -1,6 +1,13 @@
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 .\venv\Scripts\activate
 
+
+pip install django
+django-admin startproject mysite
+cd mysite
+py manage.py runserver
+
+
 cd python
 python name.py
 pip3 install PIL
@@ -34,3 +41,5 @@ git push -u origin master
 
 #### django 
 python 
+
+

@@ -118,6 +118,11 @@ env.bak/
 venv.bak/
 pythonenv*
 
+py/venv/
+web/django/env/
+
+
+
 # Spyder project settings
 .spyderproject
 .spyproject
